@@ -39,8 +39,8 @@ var repeatButtonPresses= function(remoteName, button, count) {
 };
 
 var macros = {
-    turnUp: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeUp, 6),
-    turnDown: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeDown, 6),
+    turnUp: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeUp, 10),
+    turnDown: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeDown, 10),
     togglePower: [{
         remote: remotes.tv.name,
         button: tvButtons.power
