@@ -56,7 +56,7 @@ var macros = {
 };
 
 var executeMacro = function(cmds) {
-    var delay = 250;
+    var delay = 500;
     cmds.forEach(function(cmd, i) {
         setTimeout(function(){
             sendCommand(cmd.remote, cmd.button);
