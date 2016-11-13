@@ -42,14 +42,16 @@ var macros = {
     turnUp: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeUp, 6),
     turnDown: repeatButtonPresses(remotes.soundbar.name, soundbarButtons.volumeDown, 6),
     togglePower: [{
-        remote: remotes.soundbar.name,
-        button: soundbarButtons.power,
-    },{
         remote: remotes.tv.name,
         button: tvButtons.power
-    },{
+    },
+    {
         remote: remotes.uverse.name,
         button: uverseButtons.power
+    },
+    {
+        remote: remotes.soundbar.name,
+        button: soundbarButtons.power,
     }]
 };
 
